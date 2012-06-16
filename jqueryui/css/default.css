@@ -1,0 +1,36 @@
+
+
+
+/* 
+ * Settings can be customized by ID here and matched with the ID passed
+ * to the TextArea method to automatically apply custom styles to your 
+ * areas. 
+ */ 
+ 
+ 
+ 
+@font-face {
+  font-family: "Bitstream Vera Serif";
+  src: url(http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf);
+}
+
+@font-face {
+  font-family: "LinBiolinum";
+  src: url(/fonts/LinLibertineTTF_5.1.3_2011_06_21/LinBiolinum_aWB.ttf) format('truetype');
+}
+
+/* Default textarea settings for Hlib */
+textarea {
+  resize: none;
+  overflow: auto;
+  outline: none;
+  background-color: transparent;
+  border:none;
+  margin: 0;
+  padding: 0;
+  font-family: LinBiolinum, fantasy;
+}
+
+p {
+  font-family: "Bitstream Vera Serif", cursive;
+}

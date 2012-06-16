@@ -1,0 +1,10 @@
+W12 server 
+
+======== DEPENDENCIES ========
+Install the latest version of Twisted (tested with 10.2.0).
+
+Install Python (clearly). Tested with 2.7.
+
+========== RUNNING ==========
+cd Wserver; twistd -noy vx.tac
+

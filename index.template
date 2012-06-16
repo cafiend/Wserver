@@ -1,0 +1,18 @@
+<html>
+		<head>
+				<title>vx12 Application</title>
+				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" ></script>
+				<script language='javascript'>
+					var ws_server = "ws://localhost:7070%(id)s";
+				</script>
+				<script type="text/javascript" src="/draw.js" ></script>
+		</head>
+		<body>
+				<h1>WebSocket in Twisted Test</h1>
+				<div id="conn_status">Not Connected</div>
+				<div id="output"></div>
+				<canvas id="root" width="500" height="500" style="border: solid 1px #000000;"></canvas>
+				<p>Updated.</p>
+		</body>
+</html>
+

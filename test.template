@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<html>
+	<head>
+		<title>vx12 Application</title>
+		<link type="text/css" href="/jqueryui/css/ui-lightness/jquery-ui-1.8.16.custom.css" rel="Stylesheet"/>
+		<link type="text/css" href="/jqueryui/css/default.css" rel="Stylesheet"/>	
+		<link type="text/css" href="/%(appid)s/custom.css" rel="Stylesheet"/>	
+		<script type="text/javascript" src="/jqueryui/js/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="/jqueryui/js/jquery-ui-1.8.16.custom.min.js"></script>
+		<script type="text/javascript" src="/jqueryui/js/processing.js" ></script>
+		<script type="text/javascript" src="/jqueryui/js/draw_pr.js" ></script>
+		<script type="text/javascript" src="/jqueryui/js/base64.js" ></script>
+		<script language='javascript'>
+			var ws_server = "ws://localhost:7070%(id)s";
+		</script>
+		<style>
+			.draggable { width: 500px; height: 500px; padding: 10px; padding-top: 30px;}
+		</style>
+	</head>
+	<body>
+		<p>HTML 5 Drag test page.</p>
+		<p>&nbsp;</p><p>&nbsp;</p>
+		<h1>WebSocket in Twisted Test</h1>
+		<div id="conn_status">Not Connected</div>
+		<div id="output"></div>
+		<div class="ui-widget-content draggable">
+		<canvas id="root" style="border: solid 1px #000000;" data-processing-sources="/%(appid)s/test.pde"></canvas>
+		</div>
+		<p>Updated.</p>
+	</body>
+</html>
+
